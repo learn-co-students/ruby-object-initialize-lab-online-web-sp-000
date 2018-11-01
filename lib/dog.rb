@@ -1,20 +1,17 @@
 class Dog
 
-  def initialize(name)
-    @name = "fido"
+  def initialize(name, breed = "Mutt")
+    @name = name
+    @breed = breed
   end
 
   def name=(name)
-    @name = "fido"
+    @name = name
   end
 
   def name
     @name
-    puts "fido"
-  end
-
-  def initalize(breed)
-    @breed = breed
+    puts name
   end
 
   def breed=(breed)
@@ -24,5 +21,3 @@ class Dog
     @breed
   end
 end
-fido.instance_variable_set( :@name, "Mutt")
-fido.instance_variable_set( :@breed, "Mutt")
