@@ -4,14 +4,4 @@ class Dog
     @breed = breed
   end
 
-  def name=(name)
-    @name = name
-    # if !name
-    #   @name = "Mutt"
-    # end
-  end
-
-  def name
-    @name
-  end
-end
+attr_accessor :name
