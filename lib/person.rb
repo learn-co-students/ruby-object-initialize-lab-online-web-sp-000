@@ -1,5 +1,5 @@
 class Person
-    attr_accessor :breed, :name 
+    attr_accessor :name 
     def initialize(name)
       @name = name 
     end 
