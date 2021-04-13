@@ -4,8 +4,6 @@ class Dog
     def initialize(name, breed)
       @name = name
       @breed = breed
-    end  
-    
     
     if @breed = nil 
       puts "Mutt"
@@ -14,5 +12,5 @@ class Dog
     if @name = nil
       puts "Mutt"
     end
-    
-  end
+  end  
+end
