@@ -5,10 +5,7 @@ class Dog
       @name = name
       @breed = breed
     end
-    
-       if @breed = nil 
-        puts "Mutt"
-      end
+
       
  
  
