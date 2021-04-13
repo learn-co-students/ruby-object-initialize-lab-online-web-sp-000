@@ -7,11 +7,11 @@ class Dog
     end  
     
     
-    if breed = nil 
+    if @breed = nil 
       puts "Mutt"
     end
     
-    if name = nil
+    if @name = nil
       puts "Mutt"
     end
     
